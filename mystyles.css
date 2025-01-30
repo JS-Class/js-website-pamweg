@@ -2,7 +2,7 @@
     color: rgb(203, 147, 255);
     background-color: rgb(255, 68, 0);
     text-align: center;
-    font: bold italic 2.5em/2em Arial, Helvetica, sans-serif;
+    font: bold italic 2.25em/1.9em Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -11,14 +11,11 @@ h3 {
 
 body {
     background-color: rgb(203, 147, 255);
-    color: rgb(255, 68, 0);
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
 }
 
 #main{
     color: purple;
-    font-size: 1.15em;
+    font-size: 1.25em;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -27,4 +24,8 @@ body {
     font-size: 1.15em;
     font-style: italic;
     font-weight: bold;
+}
+
+#footer{
+    color: rgb(255, 68, 0)
 }
