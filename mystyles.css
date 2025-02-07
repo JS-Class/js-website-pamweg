@@ -5,26 +5,68 @@ header {
     font: bold italic 2.25em/1.9em Arial, Helvetica, sans-serif;
 }
 
-h3 {
-    color:rgb(255, 68, 0);
-}
-
 body {
     background-color: rgb(203, 147, 255);
 }
 
 main{
-    color: purple;
     font-size: 1.25em;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .iAmMarried{
-    color: purple;
     font-style: italic;
     font-weight: bold;
 }
 
-footer{
+.iAmMarried, main{
+    color: purple;
+}
+
+footer, h3{
     color: rgb(255, 68, 0)
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+p em{
+    color: greenyellow;
+}
+
+nav{
+    background-color: rgb(235, 54, 235);
+    line-height: 200%;
+    display: block;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: black;
+    text-decoration: underline;
 }
