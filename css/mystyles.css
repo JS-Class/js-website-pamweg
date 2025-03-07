@@ -1,0 +1,108 @@
+header {
+    color: rgb(203, 147, 255);
+    background-color: rgb(255, 68, 0);
+    text-align: center;
+    font: bold italic 2.25em/1.9em Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin:10px;
+    border: double;
+    border-color: black;
+}
+
+body {
+    background-image: url(../images/purple_tile.jfif);
+    background-color: rgb(203, 147, 255);
+    background-attachment: fixed;
+}
+
+main{
+    font-size: 1.25em;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:10px;
+}
+
+.iAmMarried{
+    font-style: italic;
+    font-weight: bold;
+    margin:10px;
+}
+
+.iAmMarried, main{
+    color: rgb(255,68,0);
+}
+
+footer{
+    margin:10px;
+    clear:both;
+}
+
+footer, h3{
+    color: rgb(255, 68, 0)
+}
+
+img{
+    float: left;
+    margin:10px;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+p em{
+    color: greenyellow;
+}
+
+nav{
+    background-color: rgb(203, 147, 255);
+    line-height: 200%;
+    display: block;
+    text-align: center;
+    border: double;
+    border-color: black;
+    margin:10px;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link{
+    color: rgb(255,68,0);
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+table{
+    border: solid 2px rgb(255, 68, 0);
+    border-collapse: collapse;
+    margin:10px;
+}
+
+tr, td, th{
+    border: solid 2px rgb(255, 68, 0);
+    padding: 5px;
+    text-align: center;
+    color: rgb(255,68,0);;
+}
+
+caption{
+    caption-side: top;
+    font-weight: bold;
+    color: rgb(255,68,0);;
+}

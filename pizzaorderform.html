@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrderForm</title>
+
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+
+<body>
+    <form id="email_form" action="my_app.php" method="post">
+        <!-- input for name, address, and phone number-->
+        Customer Name: <input type="text" name="customer_name" id="customer_name" autofocus> <br>
+        Address: <input type="text" name="address" id="addy"> <br>
+        Phone Number: <input type="text" name="phone_number" id="pnumber"> <br>
+
+        <!-- radio menu for size-->
+        <fieldset>
+            Pizza Size: 
+            <input type="radio" name="12in" id="12in" value="in" checked>
+            <label for="12in">12in</label>
+            <input type="radio" name="14in" id="14in" value="in" >
+            <label for="14in">14in</label>
+            <input type="radio" name="16in" id="16in" value="in" >
+            <label for="16in">16in</label>   
+        </fieldset>
+
+        <!-- checkbox for toppings-->
+        <fieldset>
+            <input type="checkbox" name="pepperoni" id="pep">
+            <label for="pep">Pepperoni</label>
+            <input type="checkbox" name="bacon" id="bacon">
+            <label for="bacon">Bacon</label>
+            <input type="checkbox" name="mushroom" id="mush">
+            <label for="mush">Mushroom</label>
+            <input type="checkbox" name="onions" id="onions">
+            <label for="onions">Onions</label>
+            <input type="checkbox" name="jalapenos" id="jalapenos">
+            <label for="jalapenos">Jalapenos</label>
+        </fieldset>
+
+        <!-- request box for cook-->
+        <br><br>
+        Special Request: <textarea name="Notes for the cook" id="comments" cols="30" rows="10"></textarea>
+
+        <br>
+        <!-- button to submit form-->
+        <p>
+            <input id="submit" type="button" value="Submit">
+        </p>
+    </form>
+</body>
+
+</html>
