@@ -1,0 +1,90 @@
+header {
+    color: rgb(203, 147, 255);
+    background-color: rgb(255, 68, 0);
+    text-align: center;
+    font: bold italic 2.25em/1.9em Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(203, 147, 255);
+}
+
+main{
+    font-size: 1.25em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.iAmMarried{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.iAmMarried, main{
+    color: purple;
+}
+
+footer, h3{
+    color: rgb(255, 68, 0)
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+p em{
+    color: greenyellow;
+}
+
+nav{
+    background-color: rgb(235, 54, 235);
+    line-height: 200%;
+    display: block;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+table{
+    border: solid 2px rgb(255, 68, 0);
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    border: solid 2px rgb(255, 68, 0);
+    padding: 5px;
+    text-align: center;
+    color: purple;
+}
+
+caption{
+    caption-side: top;
+    font-weight: bold;
+    color: purple;
+}
