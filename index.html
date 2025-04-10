@@ -12,6 +12,12 @@
     <title>Tables</title>
 
     <link rel="stylesheet" href="css/mystyles.css">
+
+    <!-- Code for lightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+
 </head>
 
 <!--The body contains the displayed content of our web page-->
@@ -57,11 +63,15 @@
         <h3>About</h3>
 
         <p>
-            I was born in <strong>Virgina</strong> but raised in <strong>NW Ohio</strong> for 
-            most my life. I graduated from highschool in 2009 and married
-            my wife in 2013. <br><br>
-            <!--Image of Patrick and Vonda getting married-->
-            <img src="images/profile_sm.jpg" alt="Patrick getting married" height="480" width="720">Wedding day June 1, 2013
+            I was born in <strong>Virgina</strong> but raised in <strong>NW Ohio</strong> for most of my life. 
+            I graduated from high school in 2009 and married my wife in 2013. <br><br>
+            
+            <!-- Image Gallery with Lightbox -->
+            <div class="gallery">
+                <a href="images/profile_sm.jpg" data-lightbox="mygallery" data-title="Wedding day June 1, 2013">
+                    <img src="images/profile_sm.jpg" alt="Patrick and Vonda Wedding" height="180" width="270">
+                </a>
+            </div>
         </p>
 
 
